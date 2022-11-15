@@ -18,6 +18,7 @@ If my understanding is correct, we can add our Java code to /src/main/java/chara
 3. Code added by other users will now be cloned to your computer.
 
 ## How to push your code to the Repository:
+**First you must be added as a collaborator!**
 1. Make sure all work is saved.
 2. On the left sidebar, select Commit.
 3. Check the "changes" option. There should be a list of all the files that you've modified.
