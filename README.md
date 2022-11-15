@@ -1,7 +1,11 @@
 # DnDCharacterCreator
-Final Project for CSC 331
+Final Project for CSC 331.
 
-## How to load code in IntelliJ:
+**Catie Wilkinson**, Niall McKinnon, Connor McNabb, Michael Miller, Liz Moreau
+
+If my understanding is correct, we can add our Java code to /src/main/java/charactercreator/dndcharactercreator/. There might be a way to simplify the file structure but this is what IntelliJ generates for a new JavaFX Project.
+
+## How to clone repository into IntelliJ:
 
 ### First time:
 1. On GitHub, select Clone -> copy the URL listed under HTTPS.
