@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="charactercreator.dndcharactercreator.HelloController">
     <columnConstraints>
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -34,20 +34,20 @@
             <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="classButton" mnemonicParsing="false" text="Class" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-            <Button fx:id="hairColorButton" mnemonicParsing="false" text="Hair Color" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
-            <Button fx:id="nameButton" mnemonicParsing="false" text="Name" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
-            <Button fx:id="raceButton" mnemonicParsing="false" text="Race" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+            <Button fx:id="classButton" mnemonicParsing="false" onAction="#classButton" text="Class" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <Button fx:id="hairColorButton" mnemonicParsing="false" onAction="#hairButton" text="Hair Color" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+            <Button fx:id="nameButton" mnemonicParsing="false" onAction="#nameButton" text="Name" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+            <Button fx:id="raceButton" mnemonicParsing="false" onAction="#raceButton" text="Race" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets right="5.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="eyeColorButton" mnemonicParsing="false" text="Eye Color" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+            <Button fx:id="eyeColorButton" mnemonicParsing="false" onAction="#eyeButton" text="Eye Color" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets right="5.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="pronounButton" mnemonicParsing="false" text="Pronouns" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+            <Button fx:id="pronounButton" mnemonicParsing="false" onAction="#pronounButton" text="Pronouns" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets right="5.0" />
                </GridPane.margin>
