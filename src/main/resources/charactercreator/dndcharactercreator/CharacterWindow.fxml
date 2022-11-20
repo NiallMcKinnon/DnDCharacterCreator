@@ -43,10 +43,10 @@
             <Label text="Pronouns:" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <Label text="Race:" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <ChoiceBox fx:id="raceMenu" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <Label text="Hair Color:" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label text="Eye Color:" GridPane.columnIndex="1" GridPane.rowIndex="6" />
             <ColorPicker fx:id="eyeColorPicker" layoutX="434.0" layoutY="313.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
             <ChoiceBox fx:id="classMenu" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-            <Label text="Race:" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label text="Class" GridPane.columnIndex="1" GridPane.rowIndex="4" />
          </children>
       </GridPane>
    </children>

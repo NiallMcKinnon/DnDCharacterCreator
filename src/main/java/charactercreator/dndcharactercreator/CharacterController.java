@@ -14,7 +14,6 @@ import java.util.ResourceBundle;
 public class CharacterController implements Initializable {
 
     private final Player player = new Player();
-
     public TextField nameField;
     public Button updateButton;
     public ColorPicker hairColorPicker;
