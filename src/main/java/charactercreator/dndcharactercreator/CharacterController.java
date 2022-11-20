@@ -20,10 +20,10 @@ public class CharacterController implements Initializable {
     public ChoiceBox<String> pronounMenu;
     private final String[] pronounChoices = {"he/him", "she/her", "they/them"};
     public ChoiceBox<String> raceMenu;
-    private final String[] raceChoices = {"Elf", "Human"};
+    private final String[] raceChoices = {"Elf", "Human", "Dragonborne", "Fairy", "Dwarf"};
     public ColorPicker eyeColorPicker;
     public ChoiceBox<String> classMenu;
-    private final String[] classChoices = {"Never", "Gonna", "Give", "You", "Up"};
+    private final String[] classChoices = {"Druid", "Monk", "Wizard", "Bard", "Rogue"};
 
 
     @Override
