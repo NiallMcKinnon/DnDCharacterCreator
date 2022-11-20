@@ -24,6 +24,8 @@ public class CharacterController implements Initializable {
     public ColorPicker eyeColorPicker;
     public ChoiceBox<String> classMenu;
     private final String[] classChoices = {"Druid", "Monk", "Wizard", "Bard", "Rogue"};
+    public Button classInfoButton;
+    public Button raceInfoButton;
 
 
     @Override
@@ -47,5 +49,9 @@ public class CharacterController implements Initializable {
         System.out.println(player);
     }
 
+    public void displayRaceInfo(ActionEvent actionEvent) {
+    }
 
+    public void displayClassInfo(ActionEvent actionEvent) {
+    }
 }

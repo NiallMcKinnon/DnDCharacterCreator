@@ -9,11 +9,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="charactercreator.dndcharactercreator.CharacterController">
    <children>
-      <GridPane prefHeight="401.0" prefWidth="600.0" AnchorPane.rightAnchor="0.0">
+      <GridPane alignment="CENTER" prefHeight="401.0" prefWidth="600.0" AnchorPane.rightAnchor="0.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="277.0" minWidth="10.0" prefWidth="251.0" />
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="325.0" minWidth="10.0" prefWidth="161.0" />
@@ -42,11 +43,21 @@
             <ChoiceBox fx:id="pronounMenu" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
             <Label text="Pronouns:" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <Label text="Race:" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <ChoiceBox fx:id="raceMenu" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
             <Label text="Eye Color:" GridPane.columnIndex="1" GridPane.rowIndex="6" />
             <ColorPicker fx:id="eyeColorPicker" layoutX="434.0" layoutY="313.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-            <ChoiceBox fx:id="classMenu" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
             <Label text="Class" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <ChoiceBox fx:id="raceMenu" prefHeight="25.0" prefWidth="104.0" />
+                  <Button fx:id="raceInfoButton" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#displayRaceInfo" text="?" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <children>
+                  <ChoiceBox fx:id="classMenu" prefHeight="25.0" prefWidth="104.0" />
+                  <Button fx:id="classInfoButton" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#displayClassInfo" text="?" />
+               </children>
+            </HBox>
          </children>
       </GridPane>
    </children>
